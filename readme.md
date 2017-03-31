@@ -1,4 +1,4 @@
-# Instalación AppAmino
+# Instalación AppPeliculas
 
 + Después de descargar o clonar el proyecto 
 
@@ -14,30 +14,27 @@
         
 Base de datos: `cinema`
 
-        1) Administrador: Permite hacer los dos CRUD
+        1) Administrador: Permite hacer los dos CRUD Usuarios y Peliculas.
         
-           datos para ingresar por el admin:
+           Datos para ingresar por el admin:
            
             'email'= 'admin@gmail.com'
             
             'password' = '123456'
             
             
-        2) Usuario normal: Permite hacer solo un CRUD
+        2) Usuario normal: Permite hacer solo un CRUD Peliculas
         
            ejemplo de un usuario:
            
            'email'= 'katherinam35@gmail.com'
            
-           'password' = '123'
+           'password' = '123456'
 
-+ Ejecutar las migraciones.
-        $ php artisan migrate
-
-+ Por ultimo generar una key .
++ Generar una key .
 
          $ php artisan key:generate
 
-+ ejecutar el proyecto.
++ Ejecutar el proyecto.
 
         $ php artisan serve
